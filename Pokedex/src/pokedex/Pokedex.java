@@ -1,12 +1,15 @@
 package pokedex;
 /*
-Grupo
+Grupo 1: Leví Melo, Luiz Gustavo Pereira, Bruna Rosa Rodrigues e Miguel Bragança
 */
 
 
 public class Pokedex {
     /*
             quais atributos um pokedex teria?
+            boolean  ligado;
+            int qntPokemon = 10;
+            Pokemon[qntPokemon] pokemon = new pokemon();
         
     */
     public static void main(String[] args) {
