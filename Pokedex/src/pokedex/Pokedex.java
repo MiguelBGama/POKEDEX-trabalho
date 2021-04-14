@@ -1,7 +1,10 @@
 package pokedex;
 
 import java.util.Scanner;
-
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
 /*
 Grupo 1: Leví Melo, Luiz Gustavo Pereira, Bruna Rosa Rodrigues e Miguel Bragança
 */
@@ -15,25 +18,58 @@ public class Pokedex {
             Pokemon[qntPokemon] pokemon = new pokemon();
         
     */
-    public static void main(String[] args) {
-        //como a execução começa por aqui, pode ser um menu, que inicia com um metodo ligar que inicia os pokemons e as variavies e tudo necessario para o runtime
+    public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
-        Pokemon pokemon = new Pokemon();
-        int escolha = 0;
+        BufferedReader br = null;
+        ArrayList<Pokemon> pokemons = new ArrayList<>();
+        int escolha;
+        System.out.println("inicio da leitura");
         
+        br = new BufferedReader(new FileReader("C:/Users/Usuario/Desktop/4-semestre/POO/Nova Pasta/POKEDEX-trabalho/Pokedex/src/pokedex/listaPokemons.txt"));
+        String linha;
+        System.out.println("meio da leitura");
+        
+        Pokemon p1 = new Pokemon();        
+        while((linha = br.readLine()) != null){
+            p1.setNome(linha);
+            linha = br.readLine();
+            p1.setDescricao(linha);
+            linha = br.readLine();
+            p1.setTipo(linha);
+            linha = br.readLine();
+            p1.setEvolucao(linha);
+            pokemons.add(p1);
+        }
+        for(int cntrl = 0; cntrl < pokemons.size(); cntrl++){
+            p1 = pokemons.get(cntrl);
+            System.out.println("Nome:" + p1.getNome());
+            System.out.println("Descricao:" + p1.getDescricao());
+            System.out.println("Tipo:" + p1.getTipo());
+            System.out.println("Evolução:" + p1.getEvolucao());
+            System.out.println("");
+        }
+        
+        /*
+        iniciaPokemons();
+        */
         do {
             // Statements
             //menu que chama as funcionalidades
             mostraMenu();
+            escolha = scan.nextInt();
             switch(escolha){               
-                case 1:    
-                 //code to be executed;    
+                case 1:     
+                    System.out.println("case 1");
                  break;  //optional  
-                case 2:    
-                 //code to be executed;    
+                case 2:      
+                    System.out.println("case 2");
                  break;  //optional   
                 case 3:    
-                 //code to be executed; 
+                    System.out.println("case 3");
+                    break;
+                case 4:
+                    System.out.println("case 4");
+                    break;
 
                 default:     
                     escolha = 0;
@@ -50,8 +86,8 @@ public class Pokedex {
     }
     
     public static void mostraMenu(){
-                System.out.print("\033[H\033[2J");  
-                System.out.flush(); 
+              //  System.out.print("\033[H\033[2J");  
+              //  System.out.flush(); 
                 System.out.println("|---------- POKEDEX ----------|");
                 System.out.println("|            MENU             |");
                 System.out.println("|                             |");
@@ -68,7 +104,7 @@ public class Pokedex {
     
         //Treinar pokemon
         
-        //ver meus pokemons
+        //Ver meus pokemons
         
         //informações pokemon
 }
