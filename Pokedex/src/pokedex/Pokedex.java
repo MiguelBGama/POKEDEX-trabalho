@@ -19,21 +19,28 @@ public class Pokedex {
         //como a execução começa por aqui, pode ser um menu, que inicia com um metodo ligar que inicia os pokemons e as variavies e tudo necessario para o runtime
         Scanner scan = new Scanner(System.in);
         Pokemon pokemon = new Pokemon();
-        int escolha = 0;
+        int escolha;
+        
+        iniciaPokemons();
         
         do {
             // Statements
             //menu que chama as funcionalidades
             mostraMenu();
+            escolha = scan.nextInt();
             switch(escolha){               
-                case 1:    
-                 //code to be executed;    
+                case 1:     
+                    System.out.println("case 1");
                  break;  //optional  
-                case 2:    
-                 //code to be executed;    
+                case 2:      
+                    System.out.println("case 2");
                  break;  //optional   
                 case 3:    
-                 //code to be executed; 
+                    System.out.println("case 3");
+                    break;
+                case 4:
+                    System.out.println("case 4");
+                    break;
 
                 default:     
                     escolha = 0;
@@ -68,7 +75,7 @@ public class Pokedex {
     
         //Treinar pokemon
         
-        //ver meus pokemons
+        //Ver meus pokemons
         
         //informações pokemon
 }
