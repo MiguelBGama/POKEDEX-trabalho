@@ -1,0 +1,39 @@
+Bulbasauro
+Há uma semente de planta em suas costas desde o dia em que o Pokémon nasceu. A semente cresce lentamente. Enquanto é jovem, ele(a) usa os nutrientes que estão armazenados na semente em seu dorso para crescer.
+Planta/Veneno
+Ivysaur
+Ivysaur
+Quando o bulbo nas costas fica grande, parece perder a capacidade de ficar em pé nas patas traseiras. A exposição à luz solar aumenta sua força. A luz do sol também faz o botão em suas costas ficar maior.
+Planta/Veneno
+Venosaur
+Venosaur
+Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar. Um aroma encantador exala de sua flor. A fragrância acalma aqueles que estão em uma batalha.
+Planta/Veneno
+n/a
+Charmander
+Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta da cauda. Desde o momento em que nasce, uma chama arde na ponta de sua cauda. Sua vida acabaria se a chama se apagasse.
+Fogo
+Charmeleon
+Charmeleon
+Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda de fogo e o corta com garras afiadas. Se ficar agitado durante a batalha, ele solta chamas intensas, incinerando seus arredores.
+fogo
+Charizard
+Charizard
+Ele(a) cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais ao soprar chamas.
+Fogo / Voador
+n/a
+Squirtle
+Quando retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa. Quando se sente ameaçado, ele puxa seus membros para dentro de sua concha e borrifa água de sua boca.
+Água
+Wartortle
+Wartortle
+É reconhecido como um símbolo de longevidade. Se sua carapaça tem algas, esse Wartortle é muito velho(a). Ele(a) habilmente
+Água
+Blastoise
+Blastoise
+Ele(a) esmaga seu inimigo sob seu corpo pesado, causando desmaios. Em um piscar de olhos, ele(a) se retirará para dentro de sua cápsula. Os canhões de foguete em sua cápsula disparam jatos de água capazes de abrir buracos em aço espesso.
+Água
+n/a
+Pikachu
+Pikachu pode gerar eletricidade poderosa, tem bolsas nas bochechas que são extremamente macias e super elásticas. Quando os Pikachu se encontram, eles tocam suas caudas e trocam eletricidade através delas como uma forma de saudação.
+Elétrico
