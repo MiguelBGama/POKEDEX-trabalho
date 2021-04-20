@@ -23,14 +23,14 @@ public class Pokedex {
         BufferedReader br = null;
         ArrayList<Pokemon> pokemons = new ArrayList<>();
         int escolha;
-        System.out.println("inicio da leitura");
         
         br = new BufferedReader(new FileReader("C:/Users/Usuario/Desktop/4-semestre/POO/Nova Pasta/POKEDEX-trabalho/Pokedex/src/pokedex/listaPokemons.txt"));
         String linha;
-        System.out.println("meio da leitura");
         
-        Pokemon p1 = new Pokemon();        
+            
+        int i = 0;
         while((linha = br.readLine()) != null){
+            Pokemon p1 = new Pokemon();
             p1.setNome(linha);
             linha = br.readLine();
             p1.setDescricao(linha);
@@ -38,16 +38,42 @@ public class Pokedex {
             p1.setTipo(linha);
             linha = br.readLine();
             p1.setEvolucao(linha);
-            pokemons.add(p1);
+            System.out.println("Nome:" + p1.getNome());
+            System.out.println("Descricao:" + p1.getDescricao());
+            System.out.println("Tipo:" + p1.getTipo());
+            System.out.println("Evolução:" + p1.getEvolucao());
+            System.out.println("" + i);
+            pokemons.add(i,p1);
+            i++;
         }
+            Pokemon aux = pokemons.get(0);
+            System.out.println("Nome:" + aux.getNome());
+            System.out.println("Descricao:" + aux.getDescricao());
+            System.out.println("Tipo:" + aux.getTipo());
+            System.out.println("Evolução:" + aux.getEvolucao());
+            System.out.println("");
+            
+            aux = pokemons.get(1);
+            
+            System.out.println("Nome:" + aux.getNome());
+            System.out.println("Descricao:" + aux.getDescricao());
+            System.out.println("Tipo:" + aux.getTipo());
+            System.out.println("Evolução:" + aux.getEvolucao());
+            System.out.println("");
+        /*
         for(int cntrl = 0; cntrl < pokemons.size(); cntrl++){
-            p1 = pokemons.get(cntrl);
+            System.out.println("Poke size" + pokemons.size());
+            System.out.println("CNTRL" + cntrl);
+            
+            
+            
             System.out.println("Nome:" + p1.getNome());
             System.out.println("Descricao:" + p1.getDescricao());
             System.out.println("Tipo:" + p1.getTipo());
             System.out.println("Evolução:" + p1.getEvolucao());
             System.out.println("");
         }
+        */
         
         /*
         iniciaPokemons();
