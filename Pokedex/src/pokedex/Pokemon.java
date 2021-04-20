@@ -4,13 +4,12 @@ package pokedex;
  *
  * Aqui sera a classe dos pokemons
  */
-public class Pokemon {
+public class pokemon {
     String nome;
     String descricao;
     String tipo;
-    String evolucao;
 
-    public Pokemon() {
+    public pokemon() {
     }
 
     public String getNome() {
@@ -19,14 +18,6 @@ public class Pokemon {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getEvolucao() {
-        return evolucao;
-    }
-
-    public void setEvolucao(String evolucao) {
-        this.evolucao = evolucao;
     }
 
     public String getDescricao() {
