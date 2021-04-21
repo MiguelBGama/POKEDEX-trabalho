@@ -1,12 +1,13 @@
 package pokedex;
 
-
 public class Pokedex {
-    public static void main(String[] args) {
-        // Aqui vÃ£o ficar as aÃ§Ãµes do pokedex
-        //Ver pokemon
-        //pesquisar pokemon
-        //listar pokemon
-    }
-    
+
+	/*
+	 * A pokedex vai ter os pokemons que aquele usuário já tem,
+	 * ou seja, aqui o usuário vai poder: ver meus pokemons e
+	 * ver as informações sobre cada pokemon
+	 * 
+	 */
+	
+
 }
