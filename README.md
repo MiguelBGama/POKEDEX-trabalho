@@ -1,2 +1,2 @@
-# POKEDEX-trabalho
-Um pokedex feito com os paradigmas de programação orientada a objeto
+# PROFESSORA LEIA ISSO
+Para a parte de arquivos funcionar a senhora vai ter que modificar uma linha do nosso codigo. colocando o endereço do seu computador no espaço do metodo da linha 32
